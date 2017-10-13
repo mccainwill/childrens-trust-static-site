@@ -1,7 +1,44 @@
+/*
+Children's Trust Theme 
+Blah blah WordPress theme stuff
+*/
+/* 1. Header Styles */
+/*  */
+/*-- 1. Header Styles --*/
+@font-face {
+  font-family: "Robato";
+  src: url("../font/Robato-Regular.tff");
+  font-family: 'Robato-Bold';
+  src: url("../font/Robato-Bold.tff");
+  font-family: 'Robato-Italic';
+  src: url("../font/Robato-Italic.tff"); }
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: "Robato", Arial, sans-serif; }
 
 .wrapper {
   margin: 0 10%; }
+
+.logo {
+  float: left; }
+
+/*- Navigation -*/
+.hidden {
+  display: none; }
+
+#navbar {
+  min-height: 100px; }
+
+.navbar .logo {
+  float: left; }
+.navbar a {
+  color: #000;
+  text-decoration: none; }
+.navbar ul {
+  list-style-type: none; }
+.navbar .list--hover {
+  display: none; }
+  .navbar .list--hover:hover {
+    display: block; }
 
 /*# sourceMappingURL=style.css.map */
