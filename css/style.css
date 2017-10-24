@@ -2,6 +2,22 @@
 Children's Trust Theme 
 Blah blah WordPress theme stuff
 */
+/* Imports */
+/* SASS Variables */
+/* Plum Usage */
+.background-plum {
+  background: #c50074; }
+
+.text-plum {
+  color: #c50074 !important; }
+
+/* Grey Usage */
+.background-grey {
+  background: #dddddd; }
+
+.text-grey {
+  color: #dddddd !important; }
+
 /* 1. Header Styles */
 /*  */
 /*-- 1. Header Styles --*/

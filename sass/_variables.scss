@@ -1,0 +1,27 @@
+/* SASS Variables */
+
+$plum: #c50074;
+$aqua: #01addd;
+$yellow: #d6df22;
+$salmon: #f37020;
+$grey: #dddddd;
+
+/* Plum Usage */
+
+.background-plum {
+	background: $plum;
+}
+
+.text-plum{
+	color: $plum!important;
+}
+
+/* Grey Usage */
+
+.background-grey {
+	background: $grey;
+}
+
+.text-grey{
+	color: $grey!important;
+}
