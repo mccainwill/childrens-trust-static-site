@@ -32,29 +32,19 @@ body {
   margin: 0;
   font-family: "Robato", Arial, sans-serif; }
 
-.wrapper {
-  margin: 0 10%; }
-
-.logo {
-  float: left; }
-
-/*- Navigation -*/
 .hidden {
   display: none; }
 
+/*- Navigation -*/
 #navbar {
   min-height: 100px; }
 
-.navbar .logo {
-  float: left; }
 .navbar a {
   color: #000;
   text-decoration: none; }
+  .navbar a:hover {
+    color: #000; }
 .navbar ul {
   list-style-type: none; }
-.navbar .list--hover {
-  display: none; }
-  .navbar .list--hover:hover {
-    display: block; }
 
 /*# sourceMappingURL=style.css.map */

@@ -28,19 +28,12 @@ body {
 	font-family: "Robato", Arial, sans-serif;
 }
 
-.wrapper {
-	margin: 0 10%;
-}
-
-.logo{
-	float: left;
+.hidden{
+	display: none;
 }
 
 /*- Navigation -*/
 
-.hidden{
-	display: none;
-}
 
 #navbar{
 	min-height: 100px;
@@ -49,18 +42,13 @@ body {
 .navbar{
 
 
-	.logo{
-		float: left;
-
-	}
-
-	.nav--text{
-
-	}
-
 	a{
 		color: #000;
 		text-decoration: none;
+		// padding: 0 10px;
+		&:hover{
+			color:#000;
+		}
 	}
 
 	ul{
@@ -68,13 +56,6 @@ body {
 		list-style-type: none;
 	}
 
-	.list--hover{
-		display: none;
-
-		&:hover{
-			display: block;
-		}
-	}
 }
 
 .navbar-custom{
