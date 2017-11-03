@@ -13,19 +13,22 @@ Blah blah WordPress theme stuff
 /*-- 1. Header Styles --*/
 
 @font-face{
-	font-family: "Robato";
-	src: url('../font/Robato-Regular.tff');
+	font-family: "Roboto";
+	src: url('../font/Roboto-Regular.ttf');
 
-	font-family: 'Robato-Bold';
-	src: url('../font/Robato-Bold.tff');
+	font-family: 'Roboto-Bold';
+	src: url('../font/Roboto-Bold.ttf');
 
-	font-family: 'Robato-Italic';
-	src: url('../font/Robato-Italic.tff');
+	font-family: 'Roboto-Italic';
+	src: url('../font/Roboto-Italic.ttf');
+
+	font-family: 'Roboto-Light';
+	src: url('../font/Roboto-Light.ttf');
 }
 
 body {
 	margin: 0;
-	font-family: "Robato", Arial, sans-serif;
+	font-family: "Roboto", Arial, sans-serif;
 }
 
 .hidden{
@@ -58,7 +61,68 @@ body {
 
 }
 
-.navbar-custom{
+.menu-icon{
+	.container {
+    	display: inline-block;
+    	cursor: pointer;
+	}
+
+	.bar1, .bar2, .bar3 {
+    	width: 35px;
+    	height: 5px;
+    	background-color: #333;
+    	margin: 6px 0;
+    	transition: 0.4s;
+	}
+}
+
+/*- Hero Banner -*/
+
+.hero{
+	background: $blue url('../images/banner1.png') no-repeat center;
+	// background-repeat-x: no-repeat;
+	min-height: 521px;
+	position: relative;
+
+	.caption{
+		font-family: 'Roboto-Light';
+		color: #FFF;
+		padding-top: 3em;
+		width: 40%;
+
+		span{
+			display: inline-block;
+		}
+
+		button{
+			color: #FFF;
+			margin-top: 20px;
+			background: $blue;
+			border: none;
+		}
+	}
+}
+
+/*- Mission Statement -*/
+
+.mission{
+	background-color: $yellow;
+	min-height: 150px;
+	
+}
+
+.statement{
+	width: 40%;
+	margin: 0 auto;
+}
+
+/*- Cards -*/
+
+.card-list{
+	background: $blue url('../images/background-happy-girl.jpg') no-repeat right bottom;
+}
+
+.card-picture{
 
 }
 

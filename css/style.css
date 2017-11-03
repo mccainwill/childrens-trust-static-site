@@ -4,12 +4,26 @@ Blah blah WordPress theme stuff
 */
 /* Imports */
 /* SASS Variables */
-/* Plum Usage */
-.background-plum {
+/* Purple Usage */
+.background-purple {
   background: #c50074; }
 
-.text-plum {
+.text-purple {
   color: #c50074 !important; }
+
+/* Blue Usage */
+.background-blue {
+  background: #01addd; }
+
+.text-blue {
+  color: #01addd !important; }
+
+/* Yellow Usage */
+.background-yellow {
+  background: #d6df22; }
+
+.text-yellow {
+  color: #d6df22; }
 
 /* Grey Usage */
 .background-grey {
@@ -22,15 +36,17 @@ Blah blah WordPress theme stuff
 /*  */
 /*-- 1. Header Styles --*/
 @font-face {
-  font-family: "Robato";
-  src: url("../font/Robato-Regular.tff");
-  font-family: 'Robato-Bold';
-  src: url("../font/Robato-Bold.tff");
-  font-family: 'Robato-Italic';
-  src: url("../font/Robato-Italic.tff"); }
+  font-family: "Roboto";
+  src: url("../font/Roboto-Regular.ttf");
+  font-family: 'Roboto-Bold';
+  src: url("../font/Roboto-Bold.ttf");
+  font-family: 'Roboto-Italic';
+  src: url("../font/Roboto-Italic.ttf");
+  font-family: 'Roboto-Light';
+  src: url("../font/Roboto-Light.ttf"); }
 body {
   margin: 0;
-  font-family: "Robato", Arial, sans-serif; }
+  font-family: "Roboto", Arial, sans-serif; }
 
 .hidden {
   display: none; }
@@ -46,5 +62,46 @@ body {
     color: #000; }
 .navbar ul {
   list-style-type: none; }
+
+.menu-icon .container {
+  display: inline-block;
+  cursor: pointer; }
+.menu-icon .bar1, .menu-icon .bar2, .menu-icon .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s; }
+
+/*- Hero Banner -*/
+.hero {
+  background: #01addd url("../images/banner1.png") no-repeat center;
+  min-height: 521px;
+  position: relative; }
+  .hero .caption {
+    font-family: 'Roboto-Light';
+    color: #FFF;
+    padding-top: 3em;
+    width: 40%; }
+    .hero .caption span {
+      display: inline-block; }
+    .hero .caption button {
+      color: #FFF;
+      margin-top: 20px;
+      background: #01addd;
+      border: none; }
+
+/*- Mission Statement -*/
+.mission {
+  background-color: #d6df22;
+  min-height: 150px; }
+
+.statement {
+  width: 40%;
+  margin: 0 auto; }
+
+/*- Cards -*/
+.card-list {
+  background: #01addd url("../images/background-happy-girl.jpg") no-repeat right bottom; }
 
 /*# sourceMappingURL=style.css.map */

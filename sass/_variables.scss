@@ -1,19 +1,39 @@
 /* SASS Variables */
 
-$plum: #c50074;
-$aqua: #01addd;
+$purple: #c50074;
+$blue: #01addd;
 $yellow: #d6df22;
-$salmon: #f37020;
+$pink: #f37020;
 $grey: #dddddd;
 
-/* Plum Usage */
+/* Purple Usage */
 
-.background-plum {
-	background: $plum;
+.background-purple {
+	background: $purple;
 }
 
-.text-plum{
-	color: $plum!important;
+.text-purple{
+	color: $purple!important;
+}
+
+/* Blue Usage */
+
+.background-blue{
+	background: $blue;
+}
+
+.text-blue{
+	color: $blue!important;
+}
+
+/* Yellow Usage */
+
+.background-yellow{
+	background: $yellow;
+}
+
+.text-yellow{
+	color: $yellow;
 }
 
 /* Grey Usage */
