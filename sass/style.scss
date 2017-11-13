@@ -13,22 +13,22 @@ Blah blah WordPress theme stuff
 /*-- 1. Header Styles --*/
 
 @font-face{
-	font-family: "Roboto";
-	src: url('../font/Roboto-Regular.ttf');
+	font-family: 'Roboto';
+	src: url('font/Roboto-Regular.ttf') format('truetype');
 
 	font-family: 'Roboto-Bold';
-	src: url('../font/Roboto-Bold.ttf');
+	src: url('font/Roboto-Bold.ttf') format('truetype');
 
 	font-family: 'Roboto-Italic';
-	src: url('../font/Roboto-Italic.ttf');
+	src: url('font/Roboto-Italic.ttf');
 
 	font-family: 'Roboto-Light';
-	src: url('../font/Roboto-Light.ttf');
+	src: url('font/Roboto-Light.ttf');
 }
 
 body {
 	margin: 0;
-	font-family: "Roboto", Arial, sans-serif;
+	font-family: 'Roboto', Arial, sans-serif;
 }
 
 .hidden{
@@ -126,3 +126,26 @@ body {
 
 }
 
+/*- Statistics -*/
+
+.stat-text{
+	font-size: 3em;
+	font-family: 'Roboto-Bold', sans-serif;
+	font-weight: bold;
+}
+
+/*- Support -*/
+
+.support{
+	background: #FAFAFA;
+
+	.card-heading{
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+
+	.help-img{
+		height: 190px;
+	}
+
+}
