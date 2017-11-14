@@ -25,6 +25,13 @@ Blah blah WordPress theme stuff
 .text-yellow {
   color: #d6df22; }
 
+/* Pink Usage */
+.background-pink {
+  background: #f37020; }
+
+.text-pink {
+  color: #f37020; }
+
 /* Grey Usage */
 .background-grey {
   background: #dddddd; }
@@ -47,6 +54,9 @@ Blah blah WordPress theme stuff
 body {
   margin: 0;
   font-family: 'Roboto', Arial, sans-serif; }
+
+.button-text {
+  font-size: 12px !important; }
 
 .hidden {
   display: none; }
