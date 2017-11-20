@@ -151,18 +151,24 @@ body {
 	.help-img{
 		height: 190px;
 	}
+}
 
-	.button-text{
-		background-color: rgba(256,256,256,0.3);
-	}
+/*- Join -*/
 
+.button-text{
+	background-color: rgba(256,256,256,0.3);
 }
 
 /*- Footer -*/
 
-.social-media{
-	span{
-		font-size: 1.2em;
-		height: 100%;
+.links{
+
+	background: #FAFAFA;
+
+	.social-media{
+		span{
+			font-size: 1.2em;
+			height: 100%;
+		}
 	}
 }

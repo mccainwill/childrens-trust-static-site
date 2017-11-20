@@ -128,12 +128,16 @@ body {
     font-weight: bold; }
   .support .help-img {
     height: 190px; }
-  .support .button-text {
-    background-color: rgba(255, 255, 255, 0.3); }
+
+/*- Join -*/
+.button-text {
+  background-color: rgba(255, 255, 255, 0.3); }
 
 /*- Footer -*/
-.social-media span {
-  font-size: 1.2em;
-  height: 100%; }
+.links {
+  background: #FAFAFA; }
+  .links .social-media span {
+    font-size: 1.2em;
+    height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
