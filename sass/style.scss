@@ -165,10 +165,26 @@ body {
 
 	background: #FAFAFA;
 
+	button{
+		font-size: 0.7em;
+	}
+
 	.social-media{
 		span{
 			font-size: 1.2em;
 			height: 100%;
+		}
+	}
+
+	ul{
+		font-size: 0.8em;
+
+		li:after{
+			content: " / ";
+		}
+
+		li:first-child:after, li:last-child:after{
+			content: none;
 		}
 	}
 }
