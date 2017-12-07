@@ -7,6 +7,15 @@
 	<!-- Latest compiled and minified Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
+	<!-- JS libraries -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+	<script type="text/javascript">
+		$('.dropdown-toggle').dropdown();
+	</script>
 
 </head>
 <body class="">
@@ -20,27 +29,26 @@
 	          <li class="nav-item p-2 m-1"><a href="#">WHY PREVENTION</a></li>
 	          <li class="nav-item p-2 m-1"><a href="#">OUR WORK</a></li>
 	          <li class="nav-item p-2 m-1"><a href="#">ABOUT US</a></li>
-	          <li class="nav-item p-2 m-1 dropdown border rounded">
-	          	<a href="#" class="menu-icon" data-toggle="dropdown" role="button" aria-expanded="false">MENU <span class="caret"</a>
-	          	<ul class="dropdown-menu" role="menu">
-	          		<li><a href="#">Stuuuuff</a></li>
-	          	</ul>
+	          <li class="nav-item m-1 dropdown border rounded">
+	          	<a class="menu-icon dropdown-toggle border-0 p-2 bg-white d-block" data-toggle="dropdown" type="link" id="dropdownMenuButton" data-toggle="dropdown" role="button" aria-expanded="false">MENU</a>
+	          	<div class="dropdown-menu" role="menu">
+	          		<a class="dropdown-item" href="#">Stuuuuff</a>
+	          	</div>
 	          </li>
-	          <li class="nav-item p-2 m-1 dropdown rounded background-purple">
-	          	<a href="#" class="px-3 text-white" data-toggle="dropdown" role="button" aria-expanded="false">DONATE TODAY</a>
-	          	<ul class="dropdown-menu" role="menu">
-	          		<li><a href="#">GIVE ONCE</a></li>
-	          		<li><a href="#">GIVE MONTHLY</a></li>
-	          	</ul>
+	          <li class="nav-item m-1 px-2 dropdown rounded background-purple">
+	          	<a href="#" class="border-0 p-2 d-block text-white" data-toggle="dropdown" data-placement="bottom" type="link" aria-expanded="false">DONATE TODAY</a>
+	          	<div class="dropdown-menu nav-item dropdown rounded background-purple donate-menu" role="menu">
+	          		<a href="#" class="dropdown-item text-white background-purple">GIVE ONCE</a>
+	          		<a href="#" class="dropdown-item text-white background-purple">GIVE MONTHLY</a>
+	          	</div>
 	          </li>
-	          <li class="nav-item p-2 m-1 dropdown rounded background-grey">
-	          	<a href="#" class="px-3 text-purple" data-toggle="dropdown" role="button" aria-expanded="false">FUNDRAISE</a>
-	          	<ul class="dropdown-menu" role="menu">
-	          		<li><a href="#">LEARN TO FUNDRAISE</a></li>
-	          		<li><a href="#">FUNDRAISING STORIES</a></li>
-	          	</ul>
+	          <li class="nav-item m-1 px-2 dropdown rounded background-grey">
+	          	<a href="#" class="border-0 p-2 d-block text-purple" data-toggle="dropdown" type="link" aria-expanded="false">FUNDRAISE</a>
+	          	<div class="dropdown-menu fundraise-menu" role="menu">
+	          		<a href="#" class="dropdown-item">LEARN TO FUNDRAISE</a>
+	          		<a href="#" class="dropdown-item">FUNDRAISING STORIES</a>
+	          	</div>
 	          </li>
-	 
 	        </ul>
 
     	</div>

@@ -6,7 +6,7 @@ Blah blah WordPress theme stuff
 /* SASS Variables */
 /* Purple Usage */
 .background-purple {
-  background: #c50074; }
+  background: #c50074 !important; }
 
 .text-purple {
   color: #c50074 !important; }
@@ -70,8 +70,16 @@ body {
   text-decoration: none; }
   .navbar a:hover {
     color: #000; }
+.navbar button {
+  border: none; }
 .navbar ul {
   list-style-type: none; }
+
+.dropdown a:hover {
+  text-decoration: none; }
+
+.donate-menu, .fundraise-menu {
+  width: 100%; }
 
 .menu-icon .container {
   display: inline-block;
